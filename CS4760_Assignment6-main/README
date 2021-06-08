@@ -1,0 +1,54 @@
+Aj Nobs
+05/04/21
+CS 4760
+Assignment 6: Memory Management
+/classes/OS/nobs/nobs/nobs.6
+hoare.cs.umsl.edu / 134.124.30.128
+Project Files: oss.c oss.h user.c user.h utility.c utility.h Makefile README VersionControl
+
+INVOCATION:
+oss [-h] [-s t] [-l f]
+-h    Describe how the project should be run and then, terminate.
+-s t  Indicate how many maximum seconds before the system terminates
+-l f  Specify a particular name for the log file
+
+
+IMPLEMENTATION:																											 [Status]
+1.  Get a Makefile that compiles two source files 																		INCOMPLETE
+	have oss allocate shared memory, use it, then deallocate it.  														INCOMPLETE
+	Make sure to check all possible error returns. 																		INCOMPLETE
+
+2.  Get oss to fork and exec one child and have that child attach to shared memory  									INCOMPLETE
+	Check the clock and verify it has correct resource limit.  															INCOMPLETE
+	Then test having child and oss communicate through message queues or semaphore.  									INCOMPLETE
+	Set up PCB and frame table/page tables.  																			INCOMPLETE
+
+3.  Have child request a read/write of a memory address  																INCOMPLETE
+	Have oss always grant it and log it.  																				INCOMPLETE
+
+4.  Set up more than one process going through your system, still granting all requests. 								INCOMPLETE
+
+5.  Now start filling out your page table and frame table. 																INCOMPLETE
+	If a frame is full, just empty it (indicating in the process that you took it from is gone) and granting request.	INCOMPLETE
+
+6.  Implement a wait queue for I/O delay on needing to swap a page. 													INCOMPLETE
+
+7.  Do not forget that swapping a page with a dirty bit should take more time on your device.							INCOMPLETE
+
+8.  Implement the second chance algorithm replacement policy.															INCOMPLETE
+
+9.  Add your observations into README.																					INCOMPLETE
+
+
+
+FUNCTIONALITY:
+
+
+
+KNOWN ISSUES:
+
+
+
+OBSERVATIONS:
+
+

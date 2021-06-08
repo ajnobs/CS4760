@@ -1,0 +1,9 @@
+Aj Nobs
+02/09/2021
+CS 4760 - Assignment 1
+Files: doenv.c doenv.h Makefile README
+
+All the tasks should function if entered properly. -h -i both function as expected. perror() used alongside
+custom msg where available. Some irregularities were noticed regarding throwing error, but that seemed more
+to do with parsing issues earlier in development.  Compilation should meet the requirements for the Makefile
+in hoare environment. Testing on edge cases and odd formatting is a little less fleshed out than I would like.

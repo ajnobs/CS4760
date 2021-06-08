@@ -1,0 +1,19 @@
+Aj Nobs
+02/19/2021
+CS 4760 - Assignment 2
+Files: master.c master.h bin_adder.c bin_adder.h Makefile README a2df.txt
+
+Functionality: Can read and parse command line.  Allocates, attaches, deallocates, and detaches shared memory. Has a functioning timer.
+Can fork and exec the accompanying program bin_adder. Makefile works as expected with the commands being:
+make
+make master
+make child
+make clean
+The make will create both programs while make master will only build and compile the master program and child will only build the bin_adder program.
+The make clean option works like normal but also targets .log files. Can do basic fork and exec. Structure for all functionality in place but not all
+able to function properly at his time.
+
+Known Issues:
+Issues with getting the forks and exec to operate as expected.
+Issues with signals and duplication.
+

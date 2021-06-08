@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "title": "Scryfall",
+    "owner": "Aj",
+    "description": "Scryfall web app"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Trust Boundary",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      },
+      {
+        "title": "Login DFD",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      },
+      {
+        "title": "Threat Tree",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
+      },
+      {
+        "title": "Abuse Case",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 3
+      }
+    ],
+    "reviewer": "Aj"
+  }
+}

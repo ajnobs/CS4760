@@ -1,0 +1,231 @@
+commit f2fb0c99e3096e1ba9d79c3b0349b21cedd6a0a0
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Most functionality present. Remainder will be added if possible.
+
+commit c8d445fe1da74b6f73e5b8af53463f021875d65b
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Adjusted amount of time added to make the log not overload too easily.  Added a simple while loop for scheduling one process repeatedly.
+
+commit e854634e7b6b62b2a2c0a0a6ded78d97b22c606e
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Updated initial comment.  Added important variables and constant to shared files.
+
+commit e20b33d17a93bf764e71ee72743c1023cf00ab25
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Random child is working. Burst time tracking and updating is working.
+
+commit 9b3e2d3ddb7cbe2f11f78a99782a3426b9f16cec
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Messages are working. Basic updating is working. Scheduling being worked on.
+
+commit 139cacb8af9d25f8d73d6a97753a132d70bc3dd8
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Synced memory seems to be working and testing time keeping and updating of shared information. Going to implement and test message queue next as well as scheduling.
+
+commit fddba0893d3849f67d6af1e98327313c8631ceaa
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Clock synced and shared memory is working.
+
+commit 54d86a241813ffeffb5e93115e627cfc1aebdec5
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Got fork and execl working. Now to test syncing.
+
+commit 3b6ce3e2db8c8ca96adc53db162012c2c627d470
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Added first bit of fork and exec functionality.  Last week of planing starting to be implemented.
+
+commit b10dab954dbdb55f85dd0173785390fd317fb3fd
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Modified clock print function into logging function.  Print testing to screen and file successful.  Cleanup of files working.  Now adding fork and execl to test children and sync.
+
+commit 1e0d0cb36739da8ac01f8fdece765a03f6613754
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Clocked fixed hopefully permanently.  First PID of pTable unusable due to memory nonsense.
+
+commit 06a42ae71fc9a901ca2fa0d73043356f85e89311
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Add print clock function. Testing clock management. PID is being placed in seconds location for some reason. Fixed until deeper dive can be done.
+
+commit 57244da5376ecaa0c953a92f420e03474f329281
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Added detach and deallocate on the error and exit function.
+
+commit 0f294b1f34486de6cce37cef84723038b4b54258
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Added outline of msg queue. cleaned up/adjusted utility files
+
+commit d53c2bb1697ab258dc82e0f762e600ac190fe15e
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Fixed issues related to lack of .o for utility.c files. Fixed initialization of bit vector array. Adjusted pcb for loop.
+
+commit d4a160ed63a743fb53b5e08014d36915cec6ca51
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Minor initialization changes for stability and uniformity reasons. Added beginnings of memory defalcation to error handling.
+
+commit 6e9c15da96182af83ae753fd4f7977f4ce58e5d1
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Minor initialization changes for stability and uniformity reasons.
+
+commit a84995564604a98e8b542ff9544913c66809357e
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Modified and added initialization for schedule info and process table. Added error and exit function. Uncommented log file open and close. Added comments and rearranged where needed.
+
+commit 3fc6f59bd9daeaf5c7e2584f49b96ba073ae3493
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Added refresh option for ease of use. Considering making a .bat testing file. Added structs for schedule info, process table, and process control block.
+
+commit 017e371013894d8367b1f6d7d0b098f6d7e0bc09
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Updated Makefile to remove circular issues and unnecessary bits that were causing issues.
+
+commit 918f3c3dd72ea3c3df771317d9c1623ab89e59b5
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Push before PC shutdown
+
+commit b4262fb020eef57591e9e1bf761eee5867b45c20
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Starting to add global variables and outline structures for the rest of the program. Trying to figure out how clock should be run and how message system for ipc should look for this situation.
+
+commit 66b8618cf8f7429077eb5e46d18d88e13c7f0f65
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    CLI parsing seems to work. Header files organized. Next is system clock implementation
+
+commit 2e500229e1d6417cd7923e99c3e08f8c1b79bbc4
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Got IDE working.  Testing CLI parsing.
+
+commit 101994a35d637a334f25d0f2e77d19acdb54fc99
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Makefile working. Basic outline coming together. Compiler and other bits are acting strange, trying to fix now. Starting testing of CLI and implementation of system clock and shared utility functions
+
+commit b06e2f523691733ba299eeb4a5bf9d49fca1f39e
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Fixed some spacing issues on .c files from github. Added completion status to README. Added CLI parsing for oss.c.
+
+commit 26c7c1c67a9ea0e70c9b19d1c33dc6ce8db84bad
+Author: Aj Nobs <aj.nobs@gmail.com>
+Commit: Aj Nobs <aj.nobs@gmail.com>
+
+    Added initial modifications and changes to main file and other utility files as IDE is set up
+
+commit ff8ae06645c1cba28bf138c6964315e165fee57b
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create utility.h
+    
+    Initial utility header file
+
+commit e073f52cdf210c7cfb88be6d3cdff46a262922a0
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create user.h
+    
+    Initial user header file
+
+commit 2da81d241dc7f747cce620d802f8d9a106b3fe3b
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create oss.h
+    
+    Initial oss header file
+
+commit dd98797e9992577dc448ac9c958bd1ef58cb559a
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create utility.c
+    
+    Initial utility.c file
+
+commit 82bccc3f2695e245421c7b586c3f53a550d75039
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create user.c
+    
+    Initial user.c file
+
+commit 28d435e1f4364d6e7b23ab4d88a9d59c67e83ba1
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create oss.c
+    
+    Initial oss.c main file
+
+commit 659eb94095cb6ec8dea3dc5b07d424cb648d9898
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create Makefile
+    
+    Initial Makefile
+
+commit 6916fce8bff362d7acc1be88f2b0286e82b24da8
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Create README
+    
+    Added initial README
+
+commit bca9245fb68c18663d6c72adcb2eb44927b7f68f
+Author: Aj Nobs <ajnobs@users.noreply.github.com>
+Commit: GitHub <noreply@github.com>
+
+    Initial commit

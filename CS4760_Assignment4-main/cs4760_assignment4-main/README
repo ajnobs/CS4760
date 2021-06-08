@@ -1,0 +1,61 @@
+Aj Nobs
+03/22/2021
+CS 4760 - Assignment 4 - Process Scheduling
+/classes/OS/nobs/nobs/nobs.4
+hoare.cs.umsl.edu / 134.124.30.128
+Project Files: oss.c oss.h user.c user.h utility.c utility.h Makefile README VersionControl
+
+
+1.  Create your Makefile and bare executables for oss and the child process.
+	Makefile:	COMPLETE
+
+2.  Set up a system clock in shared memory and create a single user process, testing your synchronization method to pass information and control between them.
+	System Clock:			COMPLETE
+	Single User Process:	COMPLETE
+	Synchronization:		COMPLETE
+
+
+3.  Have oss simulate the scheduling of one user process over and over, logging the data but have no blocked queue
+	Schedule 1 Process Repeatedly:	COMPLETE
+	Data Logging:					COMPLETE
+
+4.  Now add the chance for your single child process to sometimes block and have oss wait until it is ready again to reschedule
+	Single Child Process Sometimes Blocks:	INCOMPLETE
+	OSS Wait and Reschedule:				COMPLETE
+
+5.  Create your round robin ready queue, add additional user processes, making all user processes alternate in it
+	Round Robin Ready Queue:		COMPLETE
+	Add Additional User Processes:	COMPLETE
+	All User Processes Alternate:	INCOMPLETE
+
+6.  Add the distinction between i/o bound and cpu bound processes
+	Distinction Between I/O and CPU Processes:	COMPLETE
+
+7.  Add the chance for user processes to be blocked on an event, keep track of statistics on this.
+	Add Chance for User Processes Blocking on Event:	INCOMPLETE
+	Track Related Statistics:							COMPLETE
+
+8.  Keep track of and output statistics like throughput, wait time, etc
+	Track Output Statistics:	COMPLETE
+
+
+Functionality:
+Shared Memory and messaging functional.
+Child process can act as CPU and I/O.
+Logging is working.
+Basic round robin.
+Multiple forks.
+Random values for incrementation.
+Error handling.
+
+
+Known Issues:
+No event blocking.
+No rescheduling.
+
+
+INVOCATION:
+oss [-h] [-s t] [-l f]
+-h    Describe how the project should be run and then, terminate.
+-s t  Indicate how many maximum seconds before the system terminates
+-l f  Specify a particular name for the log file

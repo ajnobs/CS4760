@@ -1,0 +1,58 @@
+Aj Nobs
+04/20/2021
+CS 4760 - Assignment 5 - Resource Management
+Description: In this part of the assignment, you will design and implement a resource management module for our
+             Operating System Simulator oss. In this project, you will use the deadlock detection and recovery strategy
+             to manage resources.
+/classes/OS/nobs/nobs/nobs.5
+hoare.cs.umsl.edu / 134.124.30.128
+Project Files: oss.c oss.h user.c user.h utility.c utility.h Makefile README VersionControl
+
+
+
+1. Start by creating a Makefile that compiles and builds the two executables: oss and user_proc
+   COMPLETE
+
+2. Implement clock in shared memory; possibly reuse the one from last project
+   COMPLETE
+
+3. Have oss create resource descriptors in shared memory and populate them with instances
+   COMPLETE
+   COMPLETE
+
+4. Create child processes; make them ask for resources and release acquired resources at random times
+   COMPLETE
+   INCOMPLETE
+   INCOMPLETE
+
+5. Use shared memory or message queues to communicate requests, allocation, and release of resources. Indicate the primitive used in your README
+   INCOMPLETE
+   INCOMPLETE
+
+   Message Reference:
+   Request:		r <Resource #> <Resource #> <Resource #>
+   Suspend:		s <Resource #>
+   Allocated:	a <Resource #> <Resource Instance>
+   Deallocated:	d <Resource #> <Resource Instance>
+
+   Wait:		w
+
+
+6. Implement deadlock detection and recovery algorithm. You are free to use the code that is given to you in the notes
+   INCOMPLETE
+
+7. Keep track of output statistics in log file
+   INCOMPLETE
+
+
+Functionality:
+
+
+
+Known Issues:
+
+
+
+INVOCATION:
+oss [-h]
+-h    Describe how the project should be run and then, terminate.
